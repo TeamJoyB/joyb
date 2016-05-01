@@ -22,9 +22,15 @@
     "moment": "~2.5",
     "less.js": "~1.6",
     "font-awesome": "~4.0",
-    "angular-material": "^1.0.6",
-    "material-design-icons": "^2.2.1",
-    "material-design-iconfont": "^0.0.2",
+    "angular-material": "^1.0.5",
+    "material-design-icons": "~2.1.1",
     "angularjs-slider": "^2.10.4"
+  },
+  "overrides": {
+    "material-design-icons": {
+      "main": [
+        "iconfont/material-icons.css"
+      ]
+    }
   }
 }
